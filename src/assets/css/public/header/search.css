@@ -1,0 +1,176 @@
+.m-header .m-header-searchbar {
+  padding: 20px 20px;
+  background: #fff;
+  align-items: start;
+  box-sizing: border-box;
+}
+.m-header .m-header-searchbar .left {
+  width: 280px;
+  padding-top: 15px;
+}
+.m-header .m-header-searchbar .left img {
+  width: 126px;
+  height: 46px;
+}
+.m-header .m-header-searchbar .center {
+  flex: 1;
+  width: auto;
+}
+.m-header .m-header-searchbar .center .wrapper {
+  margin-top: 16px;
+  border: 1px solid #13D1BE;
+  border-radius: 4px;
+  width: 552px;
+  box-sizing: border-box;
+  position: relative;
+  white-space: nowrap;
+}
+.m-header .m-header-searchbar .center .wrapper .el-input {
+  width: 462px;
+}
+.m-header .m-header-searchbar .center .wrapper input {
+  border: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.m-header .m-header-searchbar .center .wrapper .el-button {
+  width: 88px;
+  border: none;
+  background: #13D1BE;
+  font-size: 16px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  vertical-align: -1px;
+}
+.m-header .m-header-searchbar .center .wrapper .el-button i {
+  font-weight: bold;
+}
+.m-header .m-header-searchbar .center .wrapper .hotPlace,
+.m-header .m-header-searchbar .center .wrapper .searchList {
+  position: absolute;
+  top: 41px;
+  left: 0;
+  background: #fff;
+  padding: 10px;
+  font-size: 12px;
+  width: 462px;
+  box-sizing: border-box;
+  border: 1px solid #E5E5E5;
+  border-top: none;
+  z-index: 999;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.m-header .m-header-searchbar .center .wrapper .hotPlace dt,
+.m-header .m-header-searchbar .center .wrapper .searchList dt {
+  color: #999;
+  font-weight: bold;
+}
+.m-header .m-header-searchbar .center .wrapper .hotPlace dd,
+.m-header .m-header-searchbar .center .wrapper .searchList dd {
+  display: inline-block;
+  color: #666;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.m-header .m-header-searchbar .center .wrapper .hotPlace dd:hover,
+.m-header .m-header-searchbar .center .wrapper .searchList dd:hover {
+  background: #F8F8F8;
+  color: #31BBAC;
+}
+.m-header .m-header-searchbar .center .wrapper .hotPlace.searchList,
+.m-header .m-header-searchbar .center .wrapper .searchList.searchList {
+  padding: 0;
+  margin: 0;
+}
+.m-header .m-header-searchbar .center .wrapper .hotPlace.searchList dd,
+.m-header .m-header-searchbar .center .wrapper .searchList.searchList dd {
+  margin: 0;
+  padding: 3px 10px;
+  display: block;
+  line-height: 1.6;
+}
+.m-header .m-header-searchbar .center .suggest {
+  width: 552px;
+  overflow: hidden;
+  padding-left: 16px;
+  line-height: 1;
+  margin-top: 8px;
+  height: 14px;
+}
+.m-header .m-header-searchbar .center .suggest a {
+  color: #999;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  display: inline-block;
+  font-size: 12px;
+}
+.m-header .m-header-searchbar .center .suggest a:hover {
+  color: #31BBAC;
+}
+.m-header .m-header-searchbar .center .nav {
+  list-style: none;
+  display: flex;
+  margin-top: 25px;
+}
+.m-header .m-header-searchbar .center .nav li {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+.m-header .m-header-searchbar .center .nav li:first-child {
+  margin-left: 0;
+}
+.m-header .m-header-searchbar .center .nav li a {
+  color: #222;
+}
+.m-header .m-header-searchbar .center .nav li a:hover {
+  color: #f04d4e;
+}
+.m-header .m-header-searchbar .center .nav li a.takeout:hover {
+  color: #fbc700;
+}
+.m-header .m-header-searchbar .center .nav li a.apartment:hover {
+  color: #FDC411;
+}
+.m-header .m-header-searchbar .center .nav li a.business:hover {
+  color: #31BBAC;
+}
+.m-header .m-header-searchbar .right {
+  text-align: right;
+  padding-top: 15px;
+}
+.m-header .m-header-searchbar .right .security li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 5px;
+}
+.m-header .m-header-searchbar .right .security i {
+  font-style: normal;
+}
+.m-header .m-header-searchbar .right .security i:after {
+  font-family: iconfont;
+  font-size: 36px;
+  color: #13D1BE;
+}
+.m-header .m-header-searchbar .right .security .refund:after {
+  content: '\e65f';
+}
+.m-header .m-header-searchbar .right .security .single:after {
+  content: '\e652';
+}
+.m-header .m-header-searchbar .right .security .overdue:after {
+  content: '\e65e';
+}
+.m-header .m-header-searchbar .right .security .txt {
+  color: #999;
+  font-size: 12px;
+  line-height: 1;
+  margin: 0;
+  text-align: center;
+}
